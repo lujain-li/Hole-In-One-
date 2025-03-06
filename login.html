@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/Logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+    
+    <section class="intro">
+        <nav class="navigation">
+            <a href="Home.html">Home Page</a>
+            <a href="Facilities.html">Offered facilities</a>
+            <a href="Packages.html">customized packages</a>
+           
+        </nav> 
+        <br> 
+    </section>
+    <hr class="hphr"> 
+
+<section class="login">
+    <h2>Login to Your Account</h2>
+    <form id="login-form" action="#" method="post">
+       
+        <label for="user-type">Select User Type:</label>
+        <select id="user-type" name="user-type" required>
+            <option value="">-- Select --</option>
+            <option value="user">User</option>
+            <option value="guest">Guest</option>
+        </select>
+        
+       
+        <label for="username">Username or Email:</label>
+        <input type="text" id="username" name="username" required>
+        
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+       
+        <button type="submit" class="login-btn">Login</button>
+    </form>
+</section>
+
+<hr class="hphr">
+<section class="about">
+    <h2> You can browse the website and view the available services we provide without logging in, but logging in is required if you want to make a reservation through the site
+    </h2>
+</section>
+
+<footer class="footer">
+    <p class="footer-title">  <span> </span>
+    </p>
+  </footer>
+<script src="script.js"></script>
+    
+</body>
+</html>

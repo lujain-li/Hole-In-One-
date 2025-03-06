@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="page-title">Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="translate.js"></script> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/Logo.png" alt="Logo" class="logo">
+        </div>
+        
+    </header>
+    
+    <section class="intro">
+        <nav class="navigation">
+            <a href="Home.html" data-translate="nav-home">Home Page</a>
+            <a href="Facilities.html" data-translate="nav-facilities">Offered facilities</a>
+            <a href="Packages.html" data-translate="nav-packages">Customized packages</a>
+        </nav> 
+        <br> 
+    </section>
+    <hr class="hphr"> 
+ 
+<section class="booking">
+    <h2 data-translate="booking-title">Book Your Experience</h2>
+    <form id="booking-form" action="#" method="post">
+        <label for="package" data-translate="select-package">Select a Package:</label>
+        <select id="package" name="package">
+            <option value="golf" data-translate="option-golf">Golf Experience</option>
+            <option value="resort" data-translate="option-resort">Resort Stay</option>
+            <option value="full" data-translate="option-full">Full Package (Golf & Resort)</option>
+        </select>
+        
+        <label for="date" data-translate="select-date">Select Date:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <label for="guests" data-translate="num-guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+        
+        <button type="submit" class="booking-btn" data-translate="book-now">Book Now</button>
+    </form>
+    
+    <div class="service-details-container">
+        <button class="service-details-btn" onclick="toggleDropdown()" data-translate="view-details">View Service Details</button>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="OF.html" data-translate="details-facilities">Offered Facilities Details</a>
+            <a href="CP.html" data-translate="details-packages">Customized Packages Details</a>
+        </div>
+    </div>
+</section>
+
+<hr class="hphr">
+
+<footer class="footer">
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

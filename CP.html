@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="document-title">Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/Logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+    
+    <section class="intro">
+        <nav class="navigation">
+            <a href="Home.html" data-translate="home-link">Home Page</a>
+            <a href="Facilities" data-translate="facilities-link">Offered facilities</a>
+            <a href="Packages" data-translate="packages-link">Customized Packages</a>
+        </nav> 
+
+        <br> 
+    </section>
+    <hr class="hphr"> 
+    <div class="packages-container">
+        <div class="package">
+            <h2 onclick="toggleDetails(this)" data-translate="five-rounds-title">Five Rounds Package <span class="toggle-icon">&#9660;</span></h2>
+            <div class="package-details">
+                <p data-translate="five-rounds-desc1"><strong>Luxury Suite Stay for Five Nights:</strong> Experience unparalleled comfort in our elegantly designed suites, offering breathtaking views of the championship golf course.</p>
+                <p data-translate="five-rounds-desc2"><strong>Five Rounds - 18 Holes:</strong> Play on meticulously maintained fairways and greens, designed to challenge both novice and seasoned golfers alike.</p>
+                <p data-translate="five-rounds-desc3"><strong>Guaranteed Round at the Renowned "Sea View" Course:</strong> Enjoy an exclusive round at our signature course, famous for its stunning oceanfront scenery and world-class design.</p>
+                <p data-translate="five-rounds-desc4"><strong>Complimentary Digital Training Session:</strong> Enhance your game with cutting-edge golf simulation technology, guided by our expert instructors.</p>
+            </div>
+        </div>
+        
+        <div class="package">
+            <h2 onclick="toggleDetails(this)" data-translate="triple-tee-title">Triple Tee Package <span class="toggle-icon">&#9660;</span></h2>
+            <div class="package-details">
+                <p data-translate="triple-tee-desc1"><strong>Two-Night Stay in a Double Room with Breakfast:</strong> Relax in our cozy accommodations, waking up to a gourmet breakfast each morning.</p>
+                <p data-translate="triple-tee-desc2"><strong>Three Rounds - 18 Holes:</strong> Challenge yourself with diverse courses, including a chance to play at the iconic "Sea View" course if available.</p>
+                <p data-translate="triple-tee-desc3"><strong>Free Golf Cart Rental:</strong> Move seamlessly across the vast greens, ensuring a smooth and enjoyable golfing experience.</p>
+                <p data-translate="triple-tee-desc4"><strong>20% Discount at the Pro Shop:</strong> Upgrade your golf gear with exclusive discounts on premium equipment and apparel.</p>
+            </div>
+        </div>
+        
+        <div class="package">
+            <h2 onclick="toggleDetails(this)" data-translate="relaxation-title">Relaxation Retreat <span class="toggle-icon">&#9660;</span></h2>
+            <div class="package-details">
+                <p data-translate="relaxation-desc1"><strong>One-Night Stay with Full Breakfast:</strong> Escape to tranquility with a rejuvenating stay, complemented by a freshly prepared breakfast.</p>
+                <p data-translate="relaxation-desc2"><strong>Fine Dining at Any Resort Restaurant:</strong> Savor gourmet dishes crafted by top chefs, in an ambiance of elegance and relaxation.</p>
+                <p data-translate="relaxation-desc3"><strong>Access to Golf Courses:</strong> Enjoy a leisure round of golf, with access to our pristine courses (fees apply, "Sea View" course excluded).</p>
+                <p data-translate="relaxation-desc4"><strong>Complimentary Club Rental:</strong> No need to bring your own gear – our premium clubs ensure you play at your best.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="translate.js"></script>
+</body>
+</html>
